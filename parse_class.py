@@ -64,6 +64,6 @@ def get_all_members(cls, show_method=True, show_attribute=True):
 
 # 本文件测试用
 if __name__ == '__main__':
-    str="hello"
+    d = {"name": "John", "age": 30}
 
-    get_all_members(type(str),True,True)
+    get_all_members(type(d),True,True)
