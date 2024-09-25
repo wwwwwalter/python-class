@@ -31,7 +31,7 @@ print("所有成员:")
 for index, member_name in enumerate(all_members, start=1):
     attr = getattr(clangs, member_name) # 获取属性(内存对象，不是名字字符串)
     if hasattr(attr, "__call__"):   # if callable(attr):
-        print(f"{index:02d} (F) {member_name}")
+        print(f"{index:02d} (M) {member_name}")
     else:
         print(f"{index:02d} (A) {member_name}")
 
@@ -40,7 +40,7 @@ print("\n继承成员:")
 for index, member_name in enumerate(inherited_members, start=1):
     attr = getattr(clangs, member_name)  # 获取属性(内存对象，不是名字字符串)
     if hasattr(attr, "__call__"):   # if callable(attr):
-        print(f"{index:02d} (F) {member_name}")
+        print(f"{index:02d} (M) {member_name}")
     else:
         print(f"{index:02d} (A) {member_name}")
 
@@ -49,6 +49,6 @@ print("\n自定义成员:")
 for index, member_name in enumerate(custom_members, start=1):
     attr = getattr(clangs, member_name)  # 获取属性(内存对象，不是名字字符串)
     if hasattr(attr, "__call__"):   # if callable(attr):
-        print(f"{index:02d} (F) {member_name}")
+        print(f"{index:02d} (M) {member_name}")
     else:
         print(f"{index:02d} (A) {member_name}")
