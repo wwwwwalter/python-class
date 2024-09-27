@@ -1,0 +1,43 @@
+2024-09-27 16:19:15,166 - simple_example - DEBUG - This is a debug message
+2024-09-27 16:19:15,166 - simple_example - INFO - This is an info message
+2024-09-27 16:19:15,167 - simple_example - WARNING - This is a warning message
+2024-09-27 16:19:15,167 - simple_example - ERROR - This is an error message
+2024-09-27 16:19:15,167 - simple_example - CRITICAL - This is a critical message
+2024-09-27 16:19:15,167 - simple_example - ERROR - An exception occurred: division by zero
+Traceback (most recent call last):
+  File "C:\Users\study\PycharmProjects\PythonLearn\member\logging.py", line 34, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+2024-09-27 16:21:30,010 - simple_example - DEBUG - This is a debug message
+2024-09-27 16:21:30,010 - simple_example - INFO - This is an info message
+2024-09-27 16:21:30,010 - simple_example - WARNING - This is a warning message
+2024-09-27 16:21:30,010 - simple_example - ERROR - This is an error message
+2024-09-27 16:21:30,010 - simple_example - CRITICAL - This is a critical message
+2024-09-27 16:21:30,010 - simple_example - ERROR - An exception occurred: division by zero
+Traceback (most recent call last):
+  File "C:\Users\study\PycharmProjects\PythonLearn\member\log.py", line 34, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+2024-09-27 16:22:11,022 - simple_example - DEBUG - This is a debug message
+2024-09-27 16:22:11,022 - simple_example - INFO - This is an info message
+2024-09-27 16:22:11,022 - simple_example - WARNING - This is a warning message
+2024-09-27 16:22:11,022 - simple_example - ERROR - This is an error message
+2024-09-27 16:22:11,022 - simple_example - CRITICAL - This is a critical message
+2024-09-27 16:22:23,961 - simple_example - DEBUG - This is a debug message
+2024-09-27 16:22:23,961 - simple_example - INFO - This is an info message
+2024-09-27 16:22:23,961 - simple_example - WARNING - This is a warning message
+2024-09-27 16:22:23,961 - simple_example - ERROR - This is an error message
+2024-09-27 16:22:23,961 - simple_example - CRITICAL - This is a critical message
+2024-09-27 16:22:27,861 - simple_example - DEBUG - This is a debug message
+2024-09-27 16:22:27,862 - simple_example - INFO - This is an info message
+2024-09-27 16:22:27,862 - simple_example - WARNING - This is a warning message
+2024-09-27 16:22:27,862 - simple_example - ERROR - This is an error message
+2024-09-27 16:22:27,862 - simple_example - CRITICAL - This is a critical message
+2024-09-27 16:22:27,862 - simple_example - ERROR - An exception occurred: division by zero
+Traceback (most recent call last):
+  File "C:\Users\study\PycharmProjects\PythonLearn\member\log.py", line 34, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
