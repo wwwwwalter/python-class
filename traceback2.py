@@ -25,8 +25,11 @@ def thirdMethod():
 try:
     main()
 except:
-    traceback.print_exc()
+    # traceback.print_exc()
     # traceback.print_exc(file=open('log.txt', 'a'))
+    # traceback.print_tb(sys.exc_info()[2])
+    print(traceback.format_exc())
+
 
 
 
