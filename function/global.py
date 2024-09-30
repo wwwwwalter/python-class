@@ -7,6 +7,6 @@ def text():
 text()
 print("函数体外访问:", add)
 
-gs = globals()
+gs = globals().copy()
 for key,value in gs.items():
     print(key,value)
